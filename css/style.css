@@ -32,7 +32,8 @@ header{
 	margin-top: 20px;
 }
 .header-button{
-	
+	display: inline-block;
+	text-decoration: none;
 box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 border-radius: 35px;
 background-color: #ffffff;
@@ -136,12 +137,13 @@ line-height: 40px;
 .footer-btn {
 
 	display: inline-block;
-	border-radius: 1px solid: #fff;
+	text-decoration: none;
+	border: 1px solid #ffffff;
 	background-color: transparent;
 	color: #fff;
-	font-size: 20px;
 	border-radius: 50px;
-	padding: 15px 40px;	
+	font-size: 18px;
+	padding: 12px 40px;
 
 }
 @media (max-width: 1200px) {
